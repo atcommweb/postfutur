@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet d'Art - Page 1</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    /* Image centrée */
+    .center-image {
+      max-width: 60%;
+      max-height: 60%;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    /* Style des liens */
+    a {
+      position: absolute;
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    a:hover {
+      background-color: #ffa500;
+    }
+
+    /* Positionnement des liens */
+    #top-left {
+      top: 20px;
+      left: 20px;
+    }
+
+    #top-right {
+      top: 20px;
+      right: 20px;
+    }
+
+    #bottom-left {
+      bottom: 20px;
+      left: 20px;
+    }
+
+    #bottom-right {
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hyperliens aux 4 coins -->
+  <a href="page1.html" id="top-left">Page 1</a>
+  <a href="page2.html" id="top-right">Page 2</a>
+  <a href="page3.html" id="bottom-left">Page 3</a>
+  <a href="page4.html" id="bottom-right">Page 4</a>
+
+  <!-- Image centrée -->
+  <img src="images/image1.jpg" alt="Oeuvre 1" class="center-image">
+
+</body>
+</html>
